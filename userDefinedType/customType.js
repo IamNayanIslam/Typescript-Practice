@@ -1,3 +1,4 @@
+var log = console.log;
 var users;
 users = [];
 var user1;
@@ -18,4 +19,10 @@ user3 = {
     userId: 103,
 };
 users.push(user3);
-console.log(users);
+log(users);
+var getRequest;
+getRequest = "GET";
+var requestHandler = function (requestType) {
+    log(requestType);
+};
+requestHandler("POST");

@@ -1,3 +1,5 @@
+const log = console.log;
+
 type User = { userName: string; userId: number };
 
 let users: User[];
@@ -29,4 +31,16 @@ user3 = {
 };
 users.push(user3);
 
-console.log(users);
+log(users);
+
+type RequestType = "GET" | "POST";
+
+let getRequest: RequestType;
+
+getRequest = "GET";
+
+const requestHandler = (requestType: RequestType) => {
+  log(requestType);
+};
+
+requestHandler("POST");
