@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  color: cyan;
+}
